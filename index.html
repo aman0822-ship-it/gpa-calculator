@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GPA-Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>GPA Calculator</h1>
+    <h2 id="total-gpa-display">Total GPA: 0.00</h2>
+    <input id="classname" placeholder="Enter Course Name">
+    <select id="grade">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+    </select>
+    <select id="course-weight">
+        <option value="regular">Regular</option>
+        <option value="honors">Honors</option>
+        <option value="ap">AP</option>
+    </select>
+    <button id = "submit-addition">Add Course</button>
+    
+    <div id="course-list"></div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
